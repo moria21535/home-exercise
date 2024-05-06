@@ -25,6 +25,4 @@ if __name__ == '__main__':
     print(is_sorted_polyndrom("aa"))
     print(is_sorted_polyndrom("a"))
 
-    print()
-
 
