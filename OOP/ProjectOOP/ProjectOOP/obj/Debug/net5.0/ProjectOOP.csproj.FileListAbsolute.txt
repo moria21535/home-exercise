@@ -1,0 +1,16 @@
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\bin\Debug\net5.0\ProjectOOP.exe
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\bin\Debug\net5.0\ProjectOOP.deps.json
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\bin\Debug\net5.0\ProjectOOP.runtimeconfig.json
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\bin\Debug\net5.0\ProjectOOP.runtimeconfig.dev.json
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\bin\Debug\net5.0\ProjectOOP.dll
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\bin\Debug\net5.0\ref\ProjectOOP.dll
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\bin\Debug\net5.0\ProjectOOP.pdb
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\obj\Debug\net5.0\ProjectOOP.csproj.AssemblyReference.cache
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\obj\Debug\net5.0\ProjectOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\obj\Debug\net5.0\ProjectOOP.AssemblyInfoInputs.cache
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\obj\Debug\net5.0\ProjectOOP.AssemblyInfo.cs
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\obj\Debug\net5.0\ProjectOOP.csproj.CoreCompileInputs.cache
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\obj\Debug\net5.0\ProjectOOP.dll
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\obj\Debug\net5.0\ref\ProjectOOP.dll
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\obj\Debug\net5.0\ProjectOOP.pdb
+C:\mamas\home-exercise\OOP\ProjectOOP\ProjectOOP\obj\Debug\net5.0\ProjectOOP.genruntimeconfig.cache
