@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/csharp,pycharm,visualstudio,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=csharp,pycharm,visualstudio,python
+# Created by https://www.toptal.com/developers/gitignore/api/python,pycharm,visualstudio,visualstudiocode,csharp
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,pycharm,visualstudio,visualstudiocode,csharp
 
 ### Csharp ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -682,6 +682,19 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
+### VisualStudioCode ###
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
 ### VisualStudio ###
 
 # User-specific files
@@ -863,4 +876,4 @@ pyrightconfig.json
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/csharp,pycharm,visualstudio,python
+# End of https://www.toptal.com/developers/gitignore/api/python,pycharm,visualstudio,visualstudiocode,csharp
