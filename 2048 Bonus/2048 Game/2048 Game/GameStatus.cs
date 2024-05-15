@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace _2048_Game
 {
-    enum Direction
+    enum GameStatus
     {
-        Right,
-        Left, 
-        Down,
-        Up
+        Win, 
+        Lose,
+        Idle
     }
 }
