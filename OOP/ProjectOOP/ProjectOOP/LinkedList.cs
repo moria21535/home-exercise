@@ -185,7 +185,7 @@ namespace ProjectOOP
                 return pos;
             }
 
-            Node newnode = new Node(val, pos.Next);
+            Node newnode = new(val, pos.Next);
             pos.Next = newnode;
             pos = newnode;
             return pos;

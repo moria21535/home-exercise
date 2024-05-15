@@ -12,7 +12,7 @@ namespace ProjectOOP
             num = number;
         }
 
-        private string ConvertThreeDigitsToWords(long number)
+        private static string ConvertThreeDigitsToWords(long number)
         {
             string[] numbers = {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
                 "Eleven", "Twelve" , "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
@@ -23,11 +23,10 @@ namespace ProjectOOP
                 return "Zero";
             }
 
-            Stack<string> sentence = new Stack<string>();
-            string text = "";
-            string str = "";
+            Stack<string> sentence = new();
             long mid = number / 10 % 10;
 
+            string str;
             for (int i = 1; i <= Convert.ToString(number).Length; i++)
             {
                 switch (i)
@@ -61,7 +60,7 @@ namespace ProjectOOP
                 }
             }
 
-            List<string> lst = new List<string>();
+            List<string> lst = new();
             while (sentence.Count != 0)
             {
                 str = sentence.Pop();
@@ -71,14 +70,14 @@ namespace ProjectOOP
                 }
             }
 
-            text = string.Join(" ", lst);
+            string text = string.Join(" ", lst);
             return text;
         }
 
         private string ConvertToExpression()
         {
             string[] suffixes = {"", "Thousand", "Million", "Billion"};
-            Stack<string> sentence = new Stack<string>();
+            Stack<string> sentence = new();
             long number = num;
 
             if (number == 0)
@@ -89,7 +88,7 @@ namespace ProjectOOP
             while (number != 0)
             {
                 sentence.Push(ConvertThreeDigitsToWords(number % 1000));
-                number = number / 1000;
+                number /= 1000;
             }
 
             string expression = "";
@@ -101,7 +100,7 @@ namespace ProjectOOP
             return expression;
         }
 
-        public string ToString()
+        public override string ToString()
         {
             return ConvertToExpression();
         }   
