@@ -1,21 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProjectOOP
 {
     class NumericalExpression
     {
-        public long Num { private get; set; }
+        private readonly long num;
 
         public NumericalExpression(long number) 
         {
-            Num = number;
+            num = number;
         }
 
-        private static string ConvertThreeDigitsToWords(long number)
+        private string ConvertThreeDigitsToWords(long number)
         {
             string[] numbers = {"", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
                 "Eleven", "Twelve" , "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
@@ -78,10 +75,11 @@ namespace ProjectOOP
             return text;
         }
 
-        private static string ConvertToExpression(long number)
+        private string ConvertToExpression()
         {
             string[] suffixes = {"", "Thousand", "Million", "Billion"};
             Stack<string> sentence = new Stack<string>();
+            long number = num;
 
             if (number == 0)
             {
@@ -105,12 +103,12 @@ namespace ProjectOOP
 
         public string ToString()
         {
-            return ConvertToExpression(Num);
+            return ConvertToExpression();
         }   
 
         public long GetValue()
         {
-            return Num;
+            return num;
         }
 
         public static long SumLetters(long number)
@@ -119,21 +117,22 @@ namespace ProjectOOP
 
             for(long i = 0; i <= number; i++)
             {
-                sumLetters += ConvertToExpression(i).Replace(" ", "").Length;
+                sumLetters += new NumericalExpression(i).ToString().Replace(" ", "").Length;
             }
 
             return sumLetters;
         }
 
+        /* The feature of object-oriented programming that is expressed in the code here is called: Overloading (Polymorphism).
+        Method overloading means having two or more methods(or functions) in a class
+        with the same name and different arguments (or parameters). */
         public static long SumLetters(NumericalExpression ne)
         {
             long sumLetters = 0;
-            long number = ne.GetValue();
-
-            for (long i = 0; i <= number; i++)
+            
+            for (long i = 0; i <= ne.GetValue(); i++)
             {
-                ne.Num = i;
-                sumLetters += ne.ToString().Replace(" ", "").Length;
+                sumLetters += new NumericalExpression(i).ToString().Replace(" ", "").Length;
             }
 
             return sumLetters;
