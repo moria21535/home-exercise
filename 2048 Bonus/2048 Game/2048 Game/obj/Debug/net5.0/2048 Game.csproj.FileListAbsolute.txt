@@ -1,0 +1,16 @@
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\bin\Debug\net5.0\2048 Game.exe
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\bin\Debug\net5.0\2048 Game.deps.json
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\bin\Debug\net5.0\2048 Game.runtimeconfig.json
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\bin\Debug\net5.0\2048 Game.runtimeconfig.dev.json
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\bin\Debug\net5.0\2048 Game.dll
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\bin\Debug\net5.0\ref\2048 Game.dll
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\bin\Debug\net5.0\2048 Game.pdb
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\obj\Debug\net5.0\2048 Game.csproj.AssemblyReference.cache
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\obj\Debug\net5.0\2048 Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\obj\Debug\net5.0\2048 Game.AssemblyInfoInputs.cache
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\obj\Debug\net5.0\2048 Game.AssemblyInfo.cs
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\obj\Debug\net5.0\2048 Game.csproj.CoreCompileInputs.cache
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\obj\Debug\net5.0\2048 Game.dll
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\obj\Debug\net5.0\ref\2048 Game.dll
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\obj\Debug\net5.0\2048 Game.pdb
+C:\mamas\home-exercise\2048 Bonus\2048 Game\2048 Game\obj\Debug\net5.0\2048 Game.genruntimeconfig.cache
